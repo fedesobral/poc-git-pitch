@@ -4,21 +4,27 @@
 
 ---
 #Maybe a title
-And i thing some *text* could be really cool to explain the idea
+And i thing some <span style="color:#e49436">**text**<span> could be really cool to explain the idea
  ```javascript
+
 const explanation = (idea) => <Explain idea={idea} />
+
 ```
 
 ---
-#Lets try some lists
+##Lets try some lists
+<div style="color:grey; width: 40%; position: inline-block;">
 - First point to explain
 - Other stuff
 - Dont forget this one
+</div>|
+<div style="color:grey; width: 40%; position: inline-block;">
 1. What abount a series
 2. This one comes second
+</div>
 
 ---
-###Ok so what are some usefull ways to use the code presenting markdown syntax 
+Ok so what are some usefull ways to use the code presenting markdown syntax 
  ```javascript
 it('events', () => {
 	const props = {
@@ -33,6 +39,5 @@ it('events', () => {
 	expect(props.onClick).toHaveBeenCalledTimes(1);
 });
 ```
-@[1-7,12]
 @[9]
 @[10-11]
